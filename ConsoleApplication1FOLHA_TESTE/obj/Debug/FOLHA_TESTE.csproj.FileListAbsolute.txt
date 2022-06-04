@@ -1,0 +1,5 @@
+C:\Users\Aluno\Desktop\FOLHA_API_ISP\ConsoleApplication1FOLHA_TESTE\bin\Debug\ConsoleApplication1FOLHA_TESTE.exe.config
+C:\Users\Aluno\Desktop\FOLHA_API_ISP\ConsoleApplication1FOLHA_TESTE\bin\Debug\ConsoleApplication1FOLHA_TESTE.exe
+C:\Users\Aluno\Desktop\FOLHA_API_ISP\ConsoleApplication1FOLHA_TESTE\bin\Debug\ConsoleApplication1FOLHA_TESTE.pdb
+C:\Users\Aluno\Desktop\FOLHA_API_ISP\ConsoleApplication1FOLHA_TESTE\obj\Debug\ConsoleApplication1FOLHA_TESTE.exe
+C:\Users\Aluno\Desktop\FOLHA_API_ISP\ConsoleApplication1FOLHA_TESTE\obj\Debug\ConsoleApplication1FOLHA_TESTE.pdb
