@@ -1,7 +1,4 @@
 C:\Users\Aluno\Desktop\FOLHA_API_ISP\FOLHA_API_ISP\bin\Debug\FOLHA_API_ISP.dll
 C:\Users\Aluno\Desktop\FOLHA_API_ISP\FOLHA_API_ISP\bin\Debug\FOLHA_API_ISP.pdb
-C:\Users\Aluno\Desktop\FOLHA_API_ISP\FOLHA_API_ISP\bin\Debug\ConsoleApplication1FOLHA_TESTE.exe
-C:\Users\Aluno\Desktop\FOLHA_API_ISP\FOLHA_API_ISP\bin\Debug\ConsoleApplication1FOLHA_TESTE.pdb
-C:\Users\Aluno\Desktop\FOLHA_API_ISP\FOLHA_API_ISP\obj\Debug\FOLHA_API_ISP.csprojResolveAssemblyReference.cache
 C:\Users\Aluno\Desktop\FOLHA_API_ISP\FOLHA_API_ISP\obj\Debug\FOLHA_API_ISP.dll
 C:\Users\Aluno\Desktop\FOLHA_API_ISP\FOLHA_API_ISP\obj\Debug\FOLHA_API_ISP.pdb

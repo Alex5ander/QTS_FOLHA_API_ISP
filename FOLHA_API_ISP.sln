@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FOLHA_API_ISP", "FOLHA_API_ISP\FOLHA_API_ISP.csproj", "{97D9EDFB-77D0-4560-93D6-314C263C57BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FOLHA_TESTE", "ConsoleApplication1FOLHA_TESTE\FOLHA_TESTE.csproj", "{5BF89CED-DC89-4D89-B477-BBBC4F968DD8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FOLHA_TESTE", "FOLHA_TESTE\FOLHA_TESTE.csproj", "{6DD0D7ED-E80F-4F47-B6A8-D1E4FB9CB8E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{97D9EDFB-77D0-4560-93D6-314C263C57BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97D9EDFB-77D0-4560-93D6-314C263C57BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97D9EDFB-77D0-4560-93D6-314C263C57BE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5BF89CED-DC89-4D89-B477-BBBC4F968DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5BF89CED-DC89-4D89-B477-BBBC4F968DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5BF89CED-DC89-4D89-B477-BBBC4F968DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5BF89CED-DC89-4D89-B477-BBBC4F968DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DD0D7ED-E80F-4F47-B6A8-D1E4FB9CB8E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD0D7ED-E80F-4F47-B6A8-D1E4FB9CB8E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD0D7ED-E80F-4F47-B6A8-D1E4FB9CB8E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD0D7ED-E80F-4F47-B6A8-D1E4FB9CB8E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
