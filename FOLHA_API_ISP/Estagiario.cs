@@ -31,7 +31,9 @@ namespace FOLHA_API_ISP
 
         public void Calcular()
         {
+            Bonus = SB * 0.02;
             SL = SB + Bonus;
+            Console.WriteLine("BONUS SAL: {0:C2}", Bonus);
             Console.WriteLine("SAL. LIQUIDO: {0:C2}", SL);
         }
 
