@@ -39,7 +39,7 @@ namespace FOLHA_API_ISP
         {
             Console.WriteLine("COD: {0}\tNOME:{1}", Cod, Nome);
             Console.WriteLine("SAL. BRUTO: {0:C2}", SB);
-            Console.WriteLine("{0}", "-".PadLeft(30));
+            Console.WriteLine("{0}", "-".PadRight(30));
             Console.ForegroundColor = ConsoleColor.Yellow;
             Calcular();
             Console.ForegroundColor = ConsoleColor.White;

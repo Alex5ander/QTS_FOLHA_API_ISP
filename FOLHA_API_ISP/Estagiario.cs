@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FOLHA_API_ISP
 {
-    class Estagiario:IEstagiario
+    public class Estagiario:IEstagiario
     {
         public int Cod { get; set; }
         public string Nome { get; set; }
