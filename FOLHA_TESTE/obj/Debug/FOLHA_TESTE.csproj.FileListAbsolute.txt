@@ -6,11 +6,3 @@ C:\Users\Aluno\Desktop\FOLHA_API_ISP\FOLHA_TESTE\bin\Debug\FOLHA_API_ISP.pdb
 C:\Users\Aluno\Desktop\FOLHA_API_ISP\FOLHA_TESTE\obj\Debug\FOLHA_TESTE.csprojResolveAssemblyReference.cache
 C:\Users\Aluno\Desktop\FOLHA_API_ISP\FOLHA_TESTE\obj\Debug\FOLHA_TESTE.exe
 C:\Users\Aluno\Desktop\FOLHA_API_ISP\FOLHA_TESTE\obj\Debug\FOLHA_TESTE.pdb
-C:\Users\Aluno\Desktop\QTS_FOLHA_API_ISP\FOLHA_TESTE\bin\Debug\FOLHA_TESTE.exe.config
-C:\Users\Aluno\Desktop\QTS_FOLHA_API_ISP\FOLHA_TESTE\bin\Debug\FOLHA_TESTE.exe
-C:\Users\Aluno\Desktop\QTS_FOLHA_API_ISP\FOLHA_TESTE\bin\Debug\FOLHA_TESTE.pdb
-C:\Users\Aluno\Desktop\QTS_FOLHA_API_ISP\FOLHA_TESTE\bin\Debug\FOLHA_API_ISP.dll
-C:\Users\Aluno\Desktop\QTS_FOLHA_API_ISP\FOLHA_TESTE\bin\Debug\FOLHA_API_ISP.pdb
-C:\Users\Aluno\Desktop\QTS_FOLHA_API_ISP\FOLHA_TESTE\obj\Debug\FOLHA_TESTE.csprojResolveAssemblyReference.cache
-C:\Users\Aluno\Desktop\QTS_FOLHA_API_ISP\FOLHA_TESTE\obj\Debug\FOLHA_TESTE.exe
-C:\Users\Aluno\Desktop\QTS_FOLHA_API_ISP\FOLHA_TESTE\obj\Debug\FOLHA_TESTE.pdb

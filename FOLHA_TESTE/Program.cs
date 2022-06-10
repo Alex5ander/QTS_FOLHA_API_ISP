@@ -4,36 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using FOLHA_API_ISP;
+using System.Collections;
 
 namespace FOLHA_TESTE
 {
     class Program
     {
-        static List<Funcionario> Empregados;
-        static List<Estagiario> Estagiarios;
+        static IRH empresa;
 
-        static void Main(string[] args)
-        {
-            
-            Empregados = new List<Funcionario>();
-            Empregados.Add(new Funcionario(1, "JOAO", 2300));
-            Empregados.Add(new Funcionario(2, "MARIA", 2700));
-            foreach (Funcionario f in Empregados)
-            {
-                Console.WriteLine(f.GetType().ToString().Split('.')[1]);
-                f.Folha();
-                Console.WriteLine("\n");
-            }
+        static void Main(string[] args){
 
-            Estagiarios = new List<Estagiario>();
-            Estagiarios.Add(new Estagiario(1, "JOAO", 2300));
-            Estagiarios.Add(new Estagiario(2, "MARIA", 2700));
-            foreach (Estagiario f in Estagiarios)
-            {
-                Console.WriteLine(f.GetType().ToString().Split('.')[1]);
-                f.Folha();
-                Console.WriteLine("\n");
-            }
+            empresa = new RH();
+            empresa.AddFuncionario(new Funcionario(1, "JOAO", 2300));
+            empresa.AddEstagiario(new Estagiario(2, "MARIA", 2700));
+
+            empresa.Imprimir();
 
             Console.ReadKey(); 
         }
