@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FOLHA_API_ISP
 {
-    public class Funcionario: IImposto, ISalario
+    public class Funcionario: IFuncionario
     {
         public int Cod { get; set; }
         public string Nome { get; set; }
@@ -17,6 +17,11 @@ namespace FOLHA_API_ISP
             this.Cod = Cod;
             this.Nome = Nome;
             this.SB = SB;
+        }
+
+        public void Imprimir()
+        {
+            Folha();
         }
 
         public void Calcular()

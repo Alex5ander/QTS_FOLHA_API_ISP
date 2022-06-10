@@ -42,6 +42,7 @@
     <Compile Include="Estagiario.cs" />
     <Compile Include="Funcionario.cs" />
     <Compile Include="IEstagiario.cs" />
+    <Compile Include="IFuncionario.cs" />
     <Compile Include="IImposto.cs" />
     <Compile Include="ISalario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

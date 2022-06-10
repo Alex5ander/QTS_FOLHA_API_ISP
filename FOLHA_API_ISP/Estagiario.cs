@@ -21,22 +21,28 @@ namespace FOLHA_API_ISP
         }
         public void Ponto(double horas, double SalHora)
         {
-            
+            this.SB = horas * SalHora;
         }
 
         public void Imprimir()
         {
-           
+            Folha();
         }
 
         public void Calcular()
         {
-            
+            SL = SB + Bonus;
+            Console.WriteLine("SAL. LIQUIDO: {0:C2}", SL);
         }
 
         public void Folha()
         {
-            
+            Console.WriteLine("COD: {0}\tNOME:{1}", Cod, Nome);
+            Console.WriteLine("SAL. BRUTO: {0:C2}", SB);
+            Console.WriteLine("{0}", "-".PadLeft(30));
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Calcular();
+            Console.ForegroundColor = ConsoleColor.White;
         }
     }
 }
