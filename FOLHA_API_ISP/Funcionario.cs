@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace FOLHA_API_ISP
 {
-    public class Funcionario
+    public class Funcionario: IImposto, ISalario
     {
-        public int Codigo { get; set; }
+        public int Cod { get; set; }
         public string Nome { get; set; }
         public double SB { get; set; }
         public double SL { get; set; }
-        public Funcionario(int Codigo, string Nome, double SB)
+        public Funcionario(int Cod, string Nome, double SB)
         {  
-            this.Codigo = Codigo;
+            this.Cod = Cod;
             this.Nome = Nome;
             this.SB = SB;
         }
@@ -32,7 +32,7 @@ namespace FOLHA_API_ISP
 
         public void Folha()
         {
-            Console.WriteLine("COD: {0}\tNOME:{1}", Codigo, Nome);
+            Console.WriteLine("COD: {0}\tNOME:{1}", Cod, Nome);
             Console.WriteLine("SAL. BRUTO: {0:C2}", SB);
             Console.WriteLine("{0}", "-".PadLeft(30));
             Console.ForegroundColor = ConsoleColor.Yellow;
@@ -40,7 +40,7 @@ namespace FOLHA_API_ISP
             Console.ForegroundColor = ConsoleColor.White;
         }
 
-        double INSS()
+        public double INSS()
         {
             if (SB < 1830.29) return SB * 0.08;
             else if (SB >= 1830.29 && SB < 3050.52)
@@ -48,7 +48,7 @@ namespace FOLHA_API_ISP
             else return SB * 0.11;
         }
 
-        double IRRF()
+        public double IRRF()
         {
             // TABELA 2022
             if (SB < 1930.98) return 0;
